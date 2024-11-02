@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML challange</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <main>
+        <!-- content section -->
+        <section class="content">
+            <h1>Output</h1>
+
+            <div class="meme-container">
+                <h3>Programmer memes</h3>
+                <img class="meme" src=""/>
+            </div>
+
+            <div class="joke-container">
+                <h3>Tell me something funny!</h3>
+                <p class="joke"></p>
+            </div>
+
+            <div class="wisdom-container">
+                <h3>Give me some wisdom!</h3>
+                <p class="quote"></p>
+                <p class="author"></p>
+            </div>
+
+            <div class="riddle-container">
+                <h3>I want a riddle!</h3>
+                <p class="question"></p>
+                <p class="answer"></p>
+            </div>
+        </section>
+
+        <!-- sidebar section -->
+        <section class="sidebar">
+            <h2>Actions</h2>
+            <button onclick="showMeme()">Show a Meme</button>
+            <button onclick="showJoke()">Tell Me a Joke</button>
+            <button onclick="showQuote()">Random Quote</button>
+            <button onclick="showRiddle()">Riddle me</button>
+            <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>
+            <p class="attribution">Code challenge by <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a></p> 
+        </section>
+    </main>
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+</body>
+</html>
